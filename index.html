@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CloudOps Solutions</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#0f172a;
+      color:white;
+    }
+
+    header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:20px 8%;
+      background:#111827;
+      position:sticky;
+      top:0;
+    }
+
+    .logo{
+      font-size:28px;
+      font-weight:bold;
+      color:#38bdf8;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin-left:25px;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#38bdf8;
+    }
+
+    .hero{
+      height:90vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:20px;
+      background:linear-gradient(to right,#0f172a,#1e293b);
+    }
+
+    .hero-content h1{
+      font-size:60px;
+      margin-bottom:20px;
+    }
+
+    .hero-content p{
+      font-size:20px;
+      color:#cbd5e1;
+      max-width:700px;
+      margin:auto;
+      line-height:1.6;
+    }
+
+    .hero-content button{
+      margin-top:30px;
+      padding:15px 35px;
+      border:none;
+      border-radius:8px;
+      background:#38bdf8;
+      color:black;
+      font-size:18px;
+      font-weight:bold;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    .hero-content button:hover{
+      background:white;
+    }
+
+    .services{
+      padding:80px 8%;
+      background:#111827;
+    }
+
+    .services h2{
+      text-align:center;
+      font-size:40px;
+      margin-bottom:50px;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:#1e293b;
+      padding:30px;
+      border-radius:15px;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+    }
+
+    .card h3{
+      margin-bottom:15px;
+      color:#38bdf8;
+    }
+
+    .card p{
+      color:#cbd5e1;
+      line-height:1.6;
+    }
+
+    .about{
+      padding:80px 8%;
+      text-align:center;
+    }
+
+    .about h2{
+      font-size:40px;
+      margin-bottom:20px;
+    }
+
+    .about p{
+      max-width:800px;
+      margin:auto;
+      line-height:1.8;
+      color:#cbd5e1;
+      font-size:18px;
+    }
+
+    footer{
+      background:#111827;
+      text-align:center;
+      padding:25px;
+      color:#94a3b8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">CloudOps</div>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Modern Cloud & DevOps Solutions</h1>
+
+      <p>
+        Build scalable, secure, and production-ready applications
+        using modern cloud infrastructure, automation, and container technologies.
+      </p>
+
+      <button>Get Started</button>
+    </div>
+  </section>
+
+  <section class="services">
+
+    <h2>Our Services</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Cloud Infrastructure</h3>
+        <p>
+          Deploy and manage scalable cloud environments using AWS services.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>CI/CD Automation</h3>
+        <p>
+          Automate software delivery pipelines using Jenkins and DevOps tools.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Containerization</h3>
+        <p>
+          Build and deploy containerized applications using Docker and Kubernetes.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="about">
+
+    <h2>About Us</h2>
+
+    <p>
+      We help businesses modernize infrastructure and streamline deployments
+      using cloud-native and DevOps technologies.
+      Our focus is on scalability, automation, and reliability.
+    </p>
+
+  </section>
+
+  <footer>
+    © 2026 CloudOps Solutions | All Rights Reserved
+  </footer>
+
+</body>
+</html>
